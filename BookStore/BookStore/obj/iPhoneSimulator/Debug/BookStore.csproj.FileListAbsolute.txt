@@ -1,13 +1,9 @@
 /Users/christopherl10/Desktop/repos/BookStore-IOS/BookStore/BookStore/bin/iPhoneSimulator/Debug/BookStore.exe
 /Users/christopherl10/Desktop/repos/BookStore-IOS/BookStore/BookStore/bin/iPhoneSimulator/Debug/BookStore.pdb
-/Users/christopherl10/Desktop/repos/BookStore-IOS/BookStore/BookStore/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/ibtool/_BundleResourceWithLogicalName.items
-/Users/christopherl10/Desktop/repos/BookStore-IOS/BookStore/BookStore/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/actool/_PartialAppManifest.items
-/Users/christopherl10/Desktop/repos/BookStore-IOS/BookStore/BookStore/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/actool/_BundleResourceWithLogicalName.items
-/Users/christopherl10/Desktop/repos/BookStore-IOS/BookStore/BookStore/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/optimized/
 /Users/christopherl10/Desktop/repos/BookStore-IOS/BookStore/BookStore/obj/iPhoneSimulator/Debug/BookStore.csproj.CoreCompileInputs.cache
 /Users/christopherl10/Desktop/repos/BookStore-IOS/BookStore/BookStore/obj/iPhoneSimulator/Debug/BookStore.exe
 /Users/christopherl10/Desktop/repos/BookStore-IOS/BookStore/BookStore/obj/iPhoneSimulator/Debug/BookStore.pdb
-/Users/christopherl10/Desktop/repos/BookStore-IOS/BookStore/BookStore/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-10.3.1/ibtool/_BundleResourceWithLogicalName.items
-/Users/christopherl10/Desktop/repos/BookStore-IOS/BookStore/BookStore/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-10.3.1/actool/_PartialAppManifest.items
-/Users/christopherl10/Desktop/repos/BookStore-IOS/BookStore/BookStore/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-10.3.1/actool/_BundleResourceWithLogicalName.items
-/Users/christopherl10/Desktop/repos/BookStore-IOS/BookStore/BookStore/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-10.3.1/optimized/
+/Users/christopherl10/Desktop/repos/BookStore-IOS/BookStore/BookStore/obj/iPhoneSimulator/Debug/device-builds/iphone7.1-10.3.1/ibtool/_BundleResourceWithLogicalName.items
+/Users/christopherl10/Desktop/repos/BookStore-IOS/BookStore/BookStore/obj/iPhoneSimulator/Debug/device-builds/iphone7.1-10.3.1/actool/_PartialAppManifest.items
+/Users/christopherl10/Desktop/repos/BookStore-IOS/BookStore/BookStore/obj/iPhoneSimulator/Debug/device-builds/iphone7.1-10.3.1/actool/_BundleResourceWithLogicalName.items
+/Users/christopherl10/Desktop/repos/BookStore-IOS/BookStore/BookStore/obj/iPhoneSimulator/Debug/device-builds/iphone7.1-10.3.1/optimized/
