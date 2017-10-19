@@ -1,0 +1,18 @@
+﻿<Properties StartupConfiguration="{31810046-F25A-4F8F-A5AC-D30D29321FC7}|Default">
+  <MonoDevelop.Ide.ItemProperties.BookStore PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.A4331A47-E729-460B-9D27-A19A982C5B2B">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.BookStore>
+  <MonoDevelop.Ide.Workbench ActiveDocument="BookStore/BooksTableViewController.cs">
+    <Files>
+      <File FileName="BookStore/AppDelegate.cs" Line="1" Column="1" />
+      <File FileName="BookStore/Main.storyboard" />
+      <File FileName="BookStore/BooksTableViewController.cs" Line="9" Column="9" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
