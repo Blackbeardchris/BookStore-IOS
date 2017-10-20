@@ -58,7 +58,7 @@ namespace BookStore
                                  //current row
             //data displayed in the cell
 
-            cell.BookData = data.Name;
+            cell.BookData = data;
 
             return cell;
             //retrieve cell and return to use in tableview
