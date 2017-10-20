@@ -2,12 +2,13 @@
   <MonoDevelop.Ide.ItemProperties.BookStore PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.2F340B34-4890-4C85-B5CF-8D9B76C5BD77">
     <MonoDevelop.MacDev.AppleDevelopmentTeam />
   </MonoDevelop.Ide.ItemProperties.BookStore>
-  <MonoDevelop.Ide.Workbench ActiveDocument="BookStore/BooksTableViewController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="BookStore/Main.cs">
     <Files>
       <File FileName="BookStore/AppDelegate.cs" Line="1" Column="1" />
       <File FileName="BookStore/Main.storyboard" />
-      <File FileName="BookStore/BookTableViewCell.cs" Line="13" Column="65" />
-      <File FileName="BookStore/BooksTableViewController.cs" Line="47" Column="10" />
+      <File FileName="BookStore/BookTableViewCell.cs" Line="12" Column="37" />
+      <File FileName="BookStore/BooksTableViewController.cs" Line="60" Column="13" />
+      <File FileName="BookStore/Main.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
