@@ -17,24 +17,27 @@ namespace BookStore
             {
                 Author = "J.K. Rowling",
                 Name = "Harry Potter and the Sorcerer's Stone",
-                Publisher = "Bloomsbury",
-                Year = 1997
+                Editor = "Bloomsbury",
+                Year = 1997,
+                ImagePath = "Images/harry-1.jpg"
             });
 
 			bookList.Add(new Book()
 			{
 				Author = "J.K. Rowling",
 				Name = "Harry Potter and the Chamber of Secrets",
-				Publisher = "Bloomsbury",
-				Year = 1998
+				Editor = "Bloomsbury",
+				Year = 1998,
+                ImagePath = "Images/harry-2.jpg"
 			});
 
 			bookList.Add(new Book()
 			{
 				Author = "J.K. Rowling",
 				Name = "Harry Potter and the Prisoner of Azkaban",
-				Publisher = "Bloomsbury",
-				Year = 1999
+				Editor = "Bloomsbury",
+				Year = 1999,
+                ImagePath = "Images/harry-3.jpg"
 			});
         }
         public override nint NumberOfSections(UITableView tableView)
@@ -50,18 +53,33 @@ namespace BookStore
         }
         public override UITableViewCell GetCell(UITableView tableView, NSIndexPath indexPath)
         {
-            var cell = tableView.DequeueReusableCell("Book")as BookTableViewCell;
+            var cell = tableView.DequeueReusableCell("Book") as BookTableViewCell;
             //uses the booktableviewcell
             //grabs reusable cell
 
             var data = bookList[indexPath.Row];
-                                 //current row
+            //current row
             //data displayed in the cell
 
             cell.BookData = data;
 
             return cell;
+        }
             //retrieve cell and return to use in tableview
+        public override void PrepareForSegue (UIStoryboardSegue segue, NSObject sender)
+            {
+            if (segue.Identifier == "DetailsSegue")
+                {
+                    var navigationController = segue.DestinationViewController as DetailViewController;
+
+                    if (navigationController != null)
+                    {
+                        var rowPath = TableView.IndexPathForSelectedRow;
+                        var selectedData = bookList[rowPath.Row];
+                        navigationController.selectedBook = selectedData;
+
+                }
+            }
         }
     }
 
@@ -69,7 +87,8 @@ namespace BookStore
     {
         public string Name;
         public string Author;
-        public string Publisher;
+        public string Editor;
         public int Year;
+        public string ImagePath;
     }
 }

@@ -17,7 +17,7 @@ namespace BookStore
                 bookAuthorLabel.Text = bookData.Author;
                 bookNameLabel.Text = bookData.Name;
                 bookYearLabel.Text = bookData.Year.ToString();
-                bookPublisherLabel.Text = bookData.Publisher;
+                bookEditorLabel.Text = bookData.Editor;
                 //accessing the labels
                     
             }

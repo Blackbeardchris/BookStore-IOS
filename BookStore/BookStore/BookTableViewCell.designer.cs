@@ -20,11 +20,11 @@ namespace BookStore
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UILabel bookNameLabel { get; set; }
+        UIKit.UILabel bookEditorLabel { get; set; }
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UILabel bookPublisherLabel { get; set; }
+        UIKit.UILabel bookNameLabel { get; set; }
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
@@ -37,14 +37,14 @@ namespace BookStore
                 bookAuthorLabel = null;
             }
 
+            if (bookEditorLabel != null) {
+                bookEditorLabel.Dispose ();
+                bookEditorLabel = null;
+            }
+
             if (bookNameLabel != null) {
                 bookNameLabel.Dispose ();
                 bookNameLabel = null;
-            }
-
-            if (bookPublisherLabel != null) {
-                bookPublisherLabel.Dispose ();
-                bookPublisherLabel = null;
             }
 
             if (bookYearLabel != null) {
